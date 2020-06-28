@@ -9,17 +9,33 @@
   width: 80%;
 }
 
-.card {
-   width: 100%;
-   display: flex;
-   flex-direction: column;
+.list-container {
+    width: 220px;
+    margin: 20px;
 }
 
-.card-action-area {
-   flex: 1;
+.list-card-body {
+width: 100%;
+text-align: center;
+font-weight: 400;
 }
 
-.card-content {
-   display: flex;
-   justify-content: center;
+.list-card-item {
+    display: flex;
+    align-items: center;
+    font-size: 13.5px;
+}
+
+.list-card-item svg {
+    margin-right: 10px;
+}
+
+.list-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #757575;
 }
